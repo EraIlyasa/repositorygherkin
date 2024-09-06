@@ -1,31 +1,15 @@
 import type { Options } from '@wdio/types'
 export const config: Options.Testrunner = {
-    //
-    // ====================
-    // Runner Configuration
-    // ====================
-    // WebdriverIO supports running e2e tests as well as unit and component tests.
+
     runner: 'local',
     tsConfigPath: './tsconfig.json',
     
-    //
-    // ==================
-    // Specify Test Files
-    // ==================
-    // Define which test specs should run. The pattern is relative to the directory
-    // of the configuration file being run.
-    //
-    // The specs are defined as an array of spec files (optionally using wildcards
-    // that will be expanded). The test for each spec file will be run in a separate
-    // worker process. In order to have a group of spec files run in the same worker
-    // process simply enclose them in an array within the specs array.
-    //
-    // The path of the spec files will be resolved relative from the directory of
-    // of the config file unless it's absolute.
-    //
     specs: [
         //'./features/**/*.feature'
-        'test/features/step-definitions/login.feature'
+        //'test/features/step-definitions/login.feature',
+        //'test/features/step-definitions/Authentications/ogin.feature'
+        'test/features/step-definitions/purchaseOrder.feature',
+        //'test/features/step-definitions/*.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -132,7 +116,12 @@ export const config: Options.Testrunner = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['test/features/step-definitions/loginStep.ts'], //['./features/step-definitions/*.ts'],
+        require: 
+                //['test/features/step-definitions/loginStep.ts'], 
+                ['./test/features/step-definitions/*.ts'],
+                //['test/features/step-definitions/Authentications/*.ts']
+                //['./test/features/step-definitions/purchaseOrderStep.ts'],
+
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)

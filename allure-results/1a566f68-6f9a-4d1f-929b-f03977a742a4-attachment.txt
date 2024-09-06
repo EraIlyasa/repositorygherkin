@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@data-testid=\"Menu-Purchasing\"]\"}\n  (Session info: chrome=128.0.6613.120)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF6711AB642+29090]\n\t(No symbol) [0x00007FF67111E6F9]\n\t(No symbol) [0x00007FF670FDB1CA]\n\t(No symbol) [0x00007FF67102EFD7]\n\t(No symbol) [0x00007FF67102F22C]\n\t(No symbol) [0x00007FF6710797F7]\n\t(No symbol) [0x00007FF67105672F]\n\t(No symbol) [0x00007FF6710765D9]\n\t(No symbol) [0x00007FF671056493]\n\t(No symbol) [0x00007FF6710209B1]\n\t(No symbol) [0x00007FF671021B11]\n\tGetHandleVerifier [0x00007FF6714C8CCD+3295277]\n\tGetHandleVerifier [0x00007FF6715148B3+3605523]\n\tGetHandleVerifier [0x00007FF67150A777+3564247]\n\tGetHandleVerifier [0x00007FF671266F26+797318]\n\t(No symbol) [0x00007FF67112987F]\n\t(No symbol) [0x00007FF671125464]\n\t(No symbol) [0x00007FF6711255F0]\n\t(No symbol) [0x00007FF671114A8F]\n\tBaseThreadInitThunk [0x00007FF917A8257D+29]\n\tRtlUserThreadStart [0x00007FF9193AAF28+40]\n"
+}

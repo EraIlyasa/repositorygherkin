@@ -76,7 +76,7 @@ When('I login with credential', async() => {
         //await this.takeScreenshot('Entered password');
         await Login.nextButton.click();
         //await this.takeScreenshot('Clicked Next after password');
-        await browser.pause(5000);
+        // await browser.pause(5000);
 
 // Switch back to the original window
         await browser.switchToWindow(parentHandle);

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"PT Coba Coba\"]\"}\n  (Session info: chrome=128.0.6613.120)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF7BD3DB642+29090]\n\t(No symbol) [0x00007FF7BD34E6F9]\n\t(No symbol) [0x00007FF7BD20B1CA]\n\t(No symbol) [0x00007FF7BD25EFD7]\n\t(No symbol) [0x00007FF7BD25F22C]\n\t(No symbol) [0x00007FF7BD2A97F7]\n\t(No symbol) [0x00007FF7BD28672F]\n\t(No symbol) [0x00007FF7BD2A65D9]\n\t(No symbol) [0x00007FF7BD286493]\n\t(No symbol) [0x00007FF7BD2509B1]\n\t(No symbol) [0x00007FF7BD251B11]\n\tGetHandleVerifier [0x00007FF7BD6F8CCD+3295277]\n\tGetHandleVerifier [0x00007FF7BD7448B3+3605523]\n\tGetHandleVerifier [0x00007FF7BD73A777+3564247]\n\tGetHandleVerifier [0x00007FF7BD496F26+797318]\n\t(No symbol) [0x00007FF7BD35987F]\n\t(No symbol) [0x00007FF7BD355464]\n\t(No symbol) [0x00007FF7BD3555F0]\n\t(No symbol) [0x00007FF7BD344A8F]\n\tBaseThreadInitThunk [0x00007FF917A8257D+29]\n\tRtlUserThreadStart [0x00007FF9193AAF28+40]\n"
+}

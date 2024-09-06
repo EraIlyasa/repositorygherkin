@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//input[@type=\"password\" and @aria-label=\"Enter your password\"]"
+}

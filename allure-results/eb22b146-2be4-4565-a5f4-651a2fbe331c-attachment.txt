@@ -1,0 +1,46 @@
+{
+  "id": {
+    "sessionId": "e5413baca9c1090b484105dfee1bf4df",
+    "elementId": "f.7EE502EA02BE9829033901C38234AF34.d.0F42062084311C10BB7C1694355DBD99.e.18",
+    "element-6066-11e4-a52e-4f735466cecf": "f.7EE502EA02BE9829033901C38234AF34.d.0F42062084311C10BB7C1694355DBD99.e.18",
+    "selector": "iframe",
+    "parent": {
+      "sessionId": "e5413baca9c1090b484105dfee1bf4df",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "128.0.6613.120",
+        "chrome": {
+          "chromedriverVersion": "128.0.6613.120 (095705ac6d469e273c0fe064494a53a561381fc8-refs/branch-heads/6613@{#1465})",
+          "userDataDir": "C:\\Users\\Asus\\AppData\\Local\\Temp\\scoped_dir18960_563862236"
+        },
+        "fedcm:accounts": true,
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:55057"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webSocketUrl": "ws://localhost:55049/session/e5413baca9c1090b484105dfee1bf4df",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:extension:minPinLength": true,
+        "webauthn:extension:prf": true,
+        "webauthn:virtualAuthenticators": true,
+        "wdio:driverPID": 18960
+      }
+    },
+    "index": 0,
+    "isReactElement": false,
+    "isShadowElement": false
+  }
+}

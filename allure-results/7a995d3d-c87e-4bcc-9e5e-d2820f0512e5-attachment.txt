@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"product-purchase-price-input-0\"]"
+}

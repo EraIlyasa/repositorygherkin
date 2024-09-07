@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//*[@role=\"option\" and text()=\"Transfer BCA - PT Bank Central Asia Tbk\"])[1]"
+}

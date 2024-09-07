@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"invoice_discount_number_input\"]"
+}

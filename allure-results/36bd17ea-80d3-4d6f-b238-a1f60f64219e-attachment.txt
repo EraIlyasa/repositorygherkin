@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@data-testid=\"costs-card\"]/*/*/*[6]/*[2]/*[2]"
+}

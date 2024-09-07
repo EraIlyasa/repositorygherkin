@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//*[@class=\"stripedTable\"]//td)[2]"
+}

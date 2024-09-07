@@ -102,6 +102,7 @@ export default new class purchaseOrder {
     get optPengirimanFranco() {return $('//*[@data-testid="dropdown-options" and @title="Franco"]')}
     get optPIC() {return $('//*[@id="Angga"]')}
     get optBankSupplier() {return $('(//*[@role="option" and text()="Transfer BCA - PT Bank Central Asia Tbk"])[1]')}
+    get optMetodePembayaranTempo() {return $('//*[@data-testid="dropdown-options" and @title="Tempo"]')}
 
     //Section 2 Daftar Pembelian 
     get btnImportCSVPO() {return $('//button[@id="export-csv-button"]')}
